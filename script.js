@@ -1,3 +1,6 @@
+let user_win = 0;
+let cpu_win = 0;
+
 function userInput(input) {
   console.log(input);
   cpu_input = Math.ceil(Math.random()*3);
@@ -12,10 +15,12 @@ function userInput(input) {
     result = "Draw";
   }
   else if (input === (cpu_input +1) % 3 ){
+    user_win += 1;
     console.log("Win");
     result = "Win";
   }
   else { 
+    cpu_win +=1;
     console.log("Lose");
     result = "Lose";
 
