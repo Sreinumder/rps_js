@@ -3,9 +3,9 @@ function userInput(input) {
   cpu_input = Math.ceil(Math.random()*3);
   console.log(cpu_input);
   const cpuImg = document.getElementById('CPU_img');
-  cpuImg.src = `${cpu_input}.jpg`;
+  cpuImg.src = `image/${cpu_input}.jpg`;
   const userImg = document.getElementById('user_img');
-  userImg.src = `${input}.jpg`;
+  userImg.src = `image/${input}.jpg`;
   let result;
   if (input === cpu_input){
     console.log("Draw");
