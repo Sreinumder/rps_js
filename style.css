@@ -1,0 +1,26 @@
+.h1 {
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  border-style: double;
+  border-width: medium;
+  flex-direction: row;
+  /*flex-flow: nowrap;*/
+}
+
+.card {
+  display: flex;
+  overflow: hidden;
+  background-color: #ccc;
+  padding: 5px;
+  margin: 5px;
+  height:  110px;
+  width:   110px;
+}
+
+.img {
+  height:  100px;
+  width:   100px;
+}
