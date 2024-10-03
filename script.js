@@ -27,4 +27,6 @@ function userInput(input) {
   }
   const outcome = document.getElementById('result');
   outcome.innerText = result;
+  const countWin = document.getElementById('win_count');
+  countWin.innerText = `User ${user_win} : ${cpu_win} CPU`;
 }
